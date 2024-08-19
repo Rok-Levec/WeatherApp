@@ -83,6 +83,18 @@
   cursor: pointer;
 }
 
+.loader {
+  width: 5rem;
+  margin-top: 10rem;
+}
+
+.not-found {
+  font-size: 3rem;
+  color: #484569;
+  margin-top: 5rem;
+  text-shadow: -3rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
 .weather-type {
   position: absolute;
   top: 48%;
@@ -107,6 +119,7 @@
   position: absolute;
   bottom: 22%;
   font-size: 1.6rem;
+  margin-bottom: 1%;
 }
 
 .weather-data {
@@ -116,6 +129,7 @@
   display: flex;
   column-gap: 2rem;
   padding: 0 20rem;
+  min-width: 70rem;
 }
 
 .weather-data > div {
@@ -140,7 +154,7 @@
   text-shadow: -0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-data {
+.data {
   font-size: 2rem;
   color: #2f2e57;
 }
