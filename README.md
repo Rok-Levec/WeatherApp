@@ -23,3 +23,5 @@ Open app in browser:
 ```bash
 npm run dev
 ```
+
+Click Local link to open.
